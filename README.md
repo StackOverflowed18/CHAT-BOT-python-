@@ -1,7 +1,6 @@
 # CHAT-BOT-python-
-# CHAT-BOT-python-
 In this repo u"ll understand how we"ll make a chatbot for our college (tnp cell/ junior doubts regarding curriculumn)
-# 📚 College Chatbot Project  
+## 📚 College Chatbot Project  
 
 Welcome to the **College Chatbot** repository! 🚀 This project aims to build an interactive chatbot tailored for our college's **Training and Placement Cell (TNP)** and to assist juniors with **curriculum-related doubts**. 
 
@@ -82,7 +81,7 @@ Here are some predefined questions your bot can answer right away:
 Feel free to expand this list in the `qa_pairs` dictionary to handle more queries.
 
 ---
-📎 File Structure  
+##📎 File Structure  
 ```
 college-chatbot/  
 │  
@@ -93,7 +92,7 @@ college-chatbot/
 └── README.md        # Project documentation (this file)  
 ```
 ---
-🙌 Contributions  
+##🙌 Contributions  
 We welcome contributions to improve this project! Whether it's adding more predefined questions, enhancing the UI, or optimizing the backend, feel free to submit a pull request.  
 ---
  📧 Contact  
