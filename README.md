@@ -92,11 +92,11 @@ college-chatbot/
 └── README.md        # Project documentation (this file)  
 ```
 ---
-##🙌 Contributions  
-We welcome contributions to improve this project! Whether it's adding more predefined questions, enhancing the UI, or optimizing the backend, feel free to submit a pull request.  
+🙌 Contributions  
+@brobrocoder48  
 ---
  📧 Contact  
-For any questions or suggestions, feel free to reach out to the project maintainer or drop an issue in this repository.  
+For any questions or suggestions, feel free to reach out to the project maintainer at anshimasinghask@gmail.com (stackoverflowed18) or ekanshjain2510@gmail.com (brobrocoder48)  
 ---  
 
 
