@@ -1,0 +1,32 @@
+<!DOCTYPE html> <html lang="en"> <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Chatbot for TNP Cell</title>
+<style>
+body { font-family: Arial, sans-serif; background-color: #f4f4f9; }
+#chat-container { max-width: 500px; margin: 50px auto; background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+#chat-box { height: 300px; overflow-y: scroll; border: 1px solid #ddd; padding: 10px; background: #fafafa; }
+#user-input { width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ddd; border-radius: 5px; }
+.message { margin-bottom: 15px; } .user { color: #007bff; }
+.bot { color: #28a745; }
+</style> </head>
+<body>
+<div id="chat-container">
+<h2>Chatbot for TNP Cell</h2>
+<div id="chat-box"></div>
+<input type="text" id="user-input" placeholder="Type your message here..."
+autocomplete="off"> </div>
+<script>
+document.getElementById('user-input').addEventListener('keydown', function(e) {
+if (e.key === 'Enter') {
+var userMessage = e.target.value;
+if (userMessage.trim() === '') return;
+var chatBox = document.getElementById('chat-box'); var userDiv = document.createElement('div'); userDiv.className = 'message user'; userDiv.textContent = 'You: ' + userMessage; chatBox.appendChild(userDiv);
+fetch('/chat', { method: 'POST',
+headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: userMessage })
+})
+.then(response => response.json()) .then(data => {
+var botDiv = document.createElement('div'); botDiv.className = 'message bot'; botDiv.textContent = 'Bot: ' + data.response; chatBox.appendChild(botDiv); chatBox.scrollTop = chatBox.scrollHeight;
+});
+e.target.value = ''; }
+}); </script>
+</body> </html>
