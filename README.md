@@ -47,6 +47,7 @@ This chatbot is designed to handle commonly asked queries about **placements**, 
    git clone https://github.com/your-username/college-chatbot.git  
    cd college-chatbot  
    ```
+![Screenshot (170)](https://github.com/user-attachments/assets/df94d84f-e108-4294-9c66-053f7c4e8e7c)
 
 2. **Install Dependencies**:  
    Make sure you have Python installed. Then, install the required libraries:  
