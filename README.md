@@ -94,7 +94,7 @@ college-chatbot/
 ```
 ---
 🙌 Contributions  
-@brobrocoder48  
+<a href="https://github.com/brobrocoder48">brobrocoder48</a>
 ---
  📧 Contact  
 For any questions or suggestions, feel free to reach out to the project maintainer at anshimasinghask@gmail.com (stackoverflowed18) or ekanshjain2510@gmail.com (brobrocoder48)  
