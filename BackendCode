@@ -2,8 +2,8 @@
 import openai
 from flask import Flask, render_template, request, jsonify
 app = Flask(__name__)
-# Set your OpenAI API key
-openai.api_key="sk-proj- NlEndNTJXYaderJZ_F5OejPQC1wqP7rLV9XUNS03Y48IGHzeYCdutW71usxE213LUaB6 jdAJQlT3BlbkFJbY5WvQ29SfKL_TGsPaUltJZpYnZZc95K0bo0IfJ5w9hOCMXptifU0UEu 5DNPMue-jNiKZqNoIA"
+# Paste your actual API key here (don't share it publicly!)
+openai.api_key = "sk-...your key here..."
 # Predefined questions and answers
 qa_pairs = {
 "hello": "Hi there! How can I help you today?",
