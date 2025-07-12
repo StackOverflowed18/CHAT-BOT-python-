@@ -18,7 +18,7 @@ This chatbot is designed to handle commonly asked queries about **placements**, 
 ---
 
 ## 🛠️ Technologies Used  
-
+     
 - **Python**  
 - **Flask** (for the backend and web interface)  
 - **OpenAI GPT API** (for advanced conversational capabilities)  
