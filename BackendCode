@@ -10,10 +10,8 @@ qa_pairs = {
 "hi": "Hello! How can I assist you?",
 "help": "Sure, what do you need help with?",
 "bye": "Goodbye! Have a great day!",
-"placements": "The upcoming placement drives will be announced soon. Please check the
-TNP portal for updates.",
-"internships": "For internship opportunities, please visit the internships section on the TNP
-portal.",
+"placements": "The upcoming placement drives will be announced soon. Please check the TNP portal for updates.",
+"internships": "For internship opportunities, please visit the internships section on the TNP portal.",
 }
 def generate_response(user_input):
 # Check if user input matches any predefined questions response = qa_pairs.get(user_input.lower())
